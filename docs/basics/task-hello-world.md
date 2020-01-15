@@ -15,7 +15,7 @@ docker-compose up
 Now clone the Concourse Tutorial repo, switch to the task-hello-world directory, and run the command to execute the `task_hello_world.yml` task.
 
 ```
-git clone https://github.com/starkandwayne/concourse-tutorial.git
+git clone https://github.com/abargstaedt/concourse-tutorial.git
 cd concourse-tutorial/tutorials/basic/task-hello-world
 fly -t tutorial execute -c task_hello_world.yml
 ```
